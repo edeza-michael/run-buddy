@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -7,11 +7,11 @@
     font-family: Arial, Helvetica, sans-serif;
     color: #39a6b2;
 }
-header{
+header {
     padding: 20px 35px;
     background-color: #39a6b2;
 }
-header h1{
+header h1 {
     font-weight: bold;
     font-size: 36px;
     color: #fce138;
@@ -23,17 +23,17 @@ header a {
     color: #fce138;
     text-decoration: none;
 }
-header nav{
+header nav {
     float: right;
     margin: 7px 0;
 }
-header nav ul li{
+header nav ul li {
     display: inline;
     margin: 0 30px;
     font-weight: lighter;
     font-size: 22px;
 }
-footer{
+footer {
     background: #fce138;
     width: 100%;
     padding: 40px 35px;
@@ -44,25 +44,25 @@ footer h2 {
     font-size: 30px;
     margin: 0;
 }
-footer div{
+footer div {
     float: right;
     line-height: 1.5;
     text-align: right;
 }
-footer a{
+footer a {
     color: #024e76;
 }
-section{
+section {
     padding: 60px;
 }
-.hero{
+.hero {
     background-image: url("../images/hero-bg.jpg");
     height: 600px;
     background-size: cover;
     background-position: center;
     position: relative;
 }
-.hero-form{
+.hero-form {
     border: 3px solid #024e76;
     padding: 20px;
     width: 500px;
@@ -72,14 +72,14 @@ section{
     bottom: 120px;
     right: 140px;
 }
-.hero-form h3{
+.hero-form h3 {
     font-size: 24px;
     margin: 0%;
 }
-.hero-form p{
+.hero-form p {
     margin: 5px 0 15px 0;
 }
-.form-input{
+.form-input {
     border: 1px soild #024e76;
     display: block;
     padding: 7px 15px;
@@ -88,33 +88,61 @@ section{
     width: 100%;
     margin-bottom: 15px;
 }
-.hero-form label{
+.hero-form label {
     margin: 0 5px;
 }
-.hero-form button{
+.hero-form button {
     color: #fce138;
     background-color: #024e76;
     border: none;
     padding: 10px 20px;
     font-size: 16px;    
 }
-.intro{
+.intro {
     text-align: center;
 }
-.intro h2{
-    display: inline-block;
-    font-size: 55px;
-    color: #024e76;
-    margin-bottom: 35px;
-    padding: 0px 100px 20px 100px;
-    border-bottom: 3px solid;
-    border-color: #fce138;
-}
-.intro p{
+.intro p {
     display: inline-block;
     line-height: 1.7;
     color:#39a6b2;
     width: 80%;
     font-size: 20px;
     margin: 0 auto;
+}
+
+.section-title {
+    font-size: 55px;
+    color: #024e76;
+    margin-bottom: 35px;
+    padding: 0 100px 20px 100px;
+    border-bottom: #39a6b2 3px solid; 
+}
+.primary-border {
+    border-color: #39a6b2;
+}
+.secondary-border {
+    border-color: #39a6b2;
+}
+.steps {
+    text-align: center;
+    background: #fce138;
+}
+.steps div {
+    margin-bottom: 80px;
+}
+.steps img {
+    width: 15%;
+    margin: 10px 0;
+}
+.steps h3 {
+    color: #024e76;
+    font-size: 46px;
+    margin-top: 10px;
+}
+.steps p {
+    color:#39a6b2;
+    font-size: 23px;
+}
+.steps span{
+    font-size: 38px;
 }
