@@ -100,6 +100,7 @@ section {
 }
 .intro {
     text-align: center;
+    
 }
 .intro p {
     display: inline-block;
@@ -115,7 +116,8 @@ section {
     color: #024e76;
     margin-bottom: 35px;
     padding: 0 100px 20px 100px;
-    border-bottom: #39a6b2 3px solid; 
+    border-bottom: #39a6b2 3px solid;
+    display: inline-block; 
 }
 .primary-border {
     border-color: #39a6b2;
