@@ -209,7 +209,6 @@ color: #024e76;
     color: #fce138;
 }
 .contact-info iframe {
-    width: 400px;
     height: 400px;
 }
 .contact-info div {
@@ -219,7 +218,14 @@ color: #024e76;
     text-align: left;
     margin: 30px 0 0 60px;
     color: white;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
+.contact-info > * {
+    flex: 1;
+    margin: 15px;
+  }
 .contact-info h3 {
     color: #fce138;
     font-size: 32px;
